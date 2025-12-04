@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amanuel Solomon | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-brand">Amanuel<span>Solomon</span></div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="top">
+        <div class="hero-content">
+          <p class="hero-tag">👋 Hello, I'm</p>
+          <h1>
+            Amanuel <span>Solomon</span>
+          </h1>
+          <h2 class="hero-role">
+            <span class="accent">Full-Stack Developer</span>
+          </h2>
+          <p class="hero-text">
+            I’m passionate about building scalable applications, solving complex
+            problems, and crafting delightful user experiences across the stack.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Featured Projects</a>
+            <a href="#contact" class="btn ghost">Let’s Work Together</a>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Primary Stack</span>
+              <span class="meta-value">Python · React · TypeScript · AWS</span>
+            </div>
+            <div>
+              <span class="meta-label">Key Skills</span>
+              <span class="meta-value">
+                RESTful APIs · Data Modeling · Cloud Deployment · Testing
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-avatar">
+            <div class="avatar-circle">AS</div>
+          </div>
+          <div class="hero-card-body">
+            <h3>Currently exploring</h3>
+            <p>Scalable architecture, cloud-native patterns, and modern JS frameworks.</p>
+            <ul>
+              <li>Clean, maintainable code</li>
+              <li>Robust backend services</li>
+              <li>Intuitive user experiences</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="section-header">
+          <h2>About This Portfolio</h2>
+          <p>
+            A curated collection of my most significant work, focused on building
+            efficient, robust, and maintainable solutions that solve real business
+            problems and provide a smooth user experience.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Primary Stack</h3>
+            <ul>
+              <li>Python / Django / FastAPI</li>
+              <li>JavaScript / TypeScript</li>
+              <li>React / Next.js</li>
+              <li>PostgreSQL / MongoDB</li>
+              <li>AWS / Docker</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>Key Skills</h3>
+            <ul>
+              <li>RESTful API design & implementation</li>
+              <li>Data modeling & database design</li>
+              <li>Cloud deployment & CI/CD pipelines</li>
+              <li>Performance optimization & scalability</li>
+              <li>Unit & integration testing</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>What I Care About</h3>
+            <ul>
+              <li>Clean architecture and best practices</li>
+              <li>Developer experience and maintainability</li>
+              <li>Accessible, inclusive user interfaces</li>
+              <li>Clear communication with stakeholders</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section section-alt">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <p>
+            A snapshot of my recent work across full‑stack web development, backend
+            services, and data-driven solutions.
+          </p>
+        </div>
+
+        <div class="projects-table-wrapper">
+          <table class="projects-table">
+            <thead>
+              <tr>
+                <th>Project Name</th>
+                <th>Technology Stack Used</th>
+                <th>Link to Project / Demo</th>
+                <th>Focus Area</th>
+              </tr>
+            </thead>
+            <tbody id="projects-body">
+              <!-- Rows rendered via JavaScript -->
+            </tbody>
+          </table>
+        </div>
+
+        <p class="projects-note">
+          Want to see more? Ask me about additional projects including internal tools,
+          experimental prototypes, and data science notebooks.
+        </p>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <div class="section-header">
+          <h2>Let’s Connect</h2>
+          <p>
+            I’m currently seeking <strong>Software Engineer / Full‑Stack Developer</strong>
+            opportunities where I can contribute to scalable architecture and modern
+            JavaScript‑driven products.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Links</h3>
+            <ul class="contact-list">
+              <li>
+                <span>LinkedIn</span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="linkedin-link"
+                  >Add your LinkedIn URL</a
+                >
+              </li>
+              <li>
+                <span>Portfolio / Blog</span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="website-link"
+                  >Add your website URL</a
+                >
+              </li>
+              <li>
+                <span>Email</span>
+                <a href="mailto:your.email@example.com" id="email-link"
+                  >your.email@example.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-card">
+            <h3>Quick Message</h3>
+            <form class="contact-form" id="contact-form">
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required />
+              </div>
+              <div class="form-row">
+                <label for="replyTo">Email</label>
+                <input
+                  type="email"
+                  id="replyTo"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Tell me about your project or opportunity..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn primary full-width">
+                Send Message
+              </button>
+              <p class="form-note">
+                This demo form doesn’t actually send email; hook it up to your
+                preferred service (e.g., EmailJS, a serverless function, or a backend
+                endpoint).
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        © <span id="year"></span> Amanuel Solomon. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
